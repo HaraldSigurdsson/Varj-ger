@@ -1,0 +1,209 @@
+/*Opening Fonts*/
+@font-face {
+    font-family: "Viking";
+    src: url(../fonts/Viking.ttf);
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url(../fonts/Norse.otf);
+}
+
+@font-face {
+    font-family: "Floki";
+    src: url(../fonts/floki-Hard.ttf);
+}
+
+/*Reset Options*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+/*Header Section*/
+.header-background {
+	background-color: #1a1b0d;
+	opacity: 0.88;
+	border-bottom: 2px solid #757546;
+}
+
+.header-wrapper {
+    height: 260px;
+}
+
+.header-animation-up {
+	height: 50px;
+	padding: 18px;
+	font-family: Floki;
+	font-size: 40px;
+	color: #c8cbd1;
+}
+
+.header-animation-down {
+	height: 50px;
+	padding: 18px;
+	font-family: Floki;
+	font-size: 40px;
+	color: #c8cbd1;
+}
+
+.logo-menu-wrapper {
+	width: 100%;
+    height: 50px;
+    padding: 18px;
+}
+
+.footer-background {
+	background-color: #243B55;
+}
+
+.footer-wrapper {
+	height: 150px;
+}
+
+.test {
+	height: 800px;
+	width: 100%;
+}
+
+.logo-wrapper {
+    width: 22%;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+
+.logo {
+	text-decoration: none;
+	font-family: Viking;
+	font-size: 40px;
+	color: #c8cbd1;
+}
+
+.logo:hover {
+	color: #161c26;
+}
+
+.menu-wrapper {
+    width: 60%;
+    height: 50px;
+  	padding-left: 71px;
+	float: left;
+	font-family: Viking;
+	font-size: 34px;
+}
+
+.menu {
+	padding-left: 56px;
+}
+
+.menu li {
+	padding-left: 20px;
+	padding-top: 4px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #c8cbd1;
+}
+
+.menu li a:hover {
+	color: #161c26;
+}
+
+.filler {
+	color: #243B55;
+}
+
+/*Main Section*/	
+
+.main-wrapper {
+	width: 100%;
+	height: 1200px;
+	opacity: 0.88;
+	background-image: url("../img/viking-background.jpg");
+}
+
+.main-content-container {
+	width: 100%;
+    height: 1200px;
+}
+
+.main-content-logo-container {
+	font-family: Viking;
+    font-size: 102px;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 170px;
+    color: #c8cbd1;
+}	
+
+.main-content-video-container {
+	margin-top: 40px;
+	width: 100%;
+    height: 500px;
+}
+
+.main-content-logo {
+	font-family: Viking;
+}
+
+.main-content-video {
+	margin: 0 auto;
+    width: 33%;
+    padding-top: 69px;
+}
+
+.news-wrapper {
+	width: 100%;
+	height: 600px;
+}
+/*Footer Section*/
