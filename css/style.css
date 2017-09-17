@@ -175,6 +175,7 @@ li {
 .main-content-container {
 	width: 100%;
     height: 1200px;
+    padding-top: 90px;
 }
 
 .main-content-logo-container {
